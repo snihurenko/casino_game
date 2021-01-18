@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="casino">
+            <div class="user">
+                <h2>User</h2>
+                <p>Please enter your details to start the game</p>
+                <input type="text" id="user_name" name="user_name" placeholder="Enter your name" required>
+                <input type="number" id="user_money" name="user_money" placeholder="Enter money balance" required>
+                <button id="userPlay">Start the game</button>
+            </div>
+    
+            <div class="gameMachine">
+                <label for="machine_balance">Game machine money balance</label>
+                <br>
+                <input type="text" id="machine_balance" name="machine_balance" readonly>
+                <br>
+                <img src="img/machine.png" alt="machine" id="machine_img">
+            </div>
+        </div>
+    
+        <div class="admin">
+            <div class="admin-info">
+                <h2>Admin</h2>
+                <form id="admin-form">
+                    <input type="text" id="admin_name" name="admin_name" placeholder="Enter your name" required>
+                    <br>
+                    <input type="number" id="admin_money" name="admin_money" placeholder="Enter money balance" required>
+                    <div class="admin-form-buttons">
+                        <button id="loginAdmin">Login</button>
+                        <button id="adminPlay">Start game</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="admin-panel">
+                <h2>Admin panel</h2>
+                <div>
+                    <div class="panel">
+                        <p>Casino Actions</p>
+                        <input type="text"placeholder="Parameters" id="casinoParams">
+                        
+                        <div class="casino-buttons">
+                            <button id="createCasino">Create new casino</button>
+                            <button id="getMachineCount">Get machine count</button>
+                            <button id="addMoneyCasino">Add money</button>
+                            <button id="takeMoneyCasino">Take money</button>
+                        </div>
+                    </div>
+    
+                    <div class="panel">
+                        <p>Game Machine Actions</p>
+                        <div class="panel-params">
+                            <input type="text" placeholder="Machine number" id="machineParamsNumber">
+                            <input type="text" placeholder="Money" id="machineParamsMoney">
+                        </div>
+                        
+                        <div class="machine-buttons">
+                            <button id="createMachine">Create new machine</button>
+                            <button id="deleteMachine">Delete machine</button>
+                            <button id="addMoneyMachine">Add money</button>
+                            <button id="takeMoneyMachine">Take money</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

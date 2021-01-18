@@ -1,0 +1,166 @@
+
+body{
+    background: #00062b;
+    color: #EBF5FA;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.casino{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.gameMachine {
+    width: 300px;
+    font-size: 14px;
+}
+
+.gameMachine input {
+    background: #008c99;
+    border: none;
+    margin-top: 5px;
+}
+
+#machine_img{
+    margin-top: 25px;
+    width: 140px;
+}
+
+.user{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: #005E67;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #008c99;
+    margin: 0 100px;
+}
+.user p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.user input {
+    margin: 5px;
+    width: 180px;
+    font-size: 9px;
+}
+
+#userPlay {
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: #EBF5FA;
+    color: #005E67;
+    font-weight: 600;
+    border: none;
+}
+
+.admin{
+    background: #13324C;
+    width: 700px;
+    height: 130px;
+    box-shadow: 0 4px 8px 0 #008c99;
+    border-radius: 2em / 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.admin h2 {
+    margin: 4px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.admin-info{
+    padding: 15px;
+}
+
+.admin-info input{
+    width: 105px;
+    font-size: 9px;
+    margin: 3px;
+}
+
+.admin-form-buttons{
+    display: flex;
+}
+
+.admin-form-buttons button{
+    width: 150px;
+}
+
+.admin-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-panel h2{
+    margin: 10px; 
+}
+
+.admin-panel div{
+    display: flex;
+}
+
+.machine-buttons{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.panel{
+    border: 1px solid #2A689B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel p{
+    font-size: 10px;
+    margin: 2px;
+}
+
+.panel input{
+    font-size: 8px;
+    width: 70px;
+    height: 8px;
+    background: #3987C8;
+    border: none;
+    color: #EBF5FA;
+}
+
+.panel input::placeholder{
+    color: #CCD6DC;
+}
+
+.panel-params input{
+    margin: 0 5px;
+}
+
+.admin button {
+    font-size: 8px;
+    width: 50px;
+    background: #2A689B;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 2px 4px 0 #3987C8;
+    color: #EBF5FA;
+}
+
